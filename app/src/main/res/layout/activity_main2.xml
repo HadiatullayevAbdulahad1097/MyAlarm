@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#DEDFDF"
+    tools:context=".MainActivity2">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_270sdp"
+
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Save"
+        android:textSize="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/american_type"
+        android:textStyle="bold"
+        android:backgroundTint="#02CEED"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="Back"
+        android:textSize="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/american_type"
+        android:textStyle="bold"
+        android:backgroundTint="#02CEED"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
